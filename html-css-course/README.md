@@ -1,10 +1,6 @@
-# DATE: 29-October-2025
-# SOURCE: https://github.com/jonasschmedtmann/html-css-course
-# COURSE: https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3
-
-
-- Good HTML / CSS course
-- Downloaded all of the contents
+# Build Responsive Real-World Websites with HTML and CSS
+- SOURCE: https://github.com/jonasschmedtmann/html-css-course
+- COURSE: https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3
 
 ---
 
