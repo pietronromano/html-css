@@ -1,0 +1,40 @@
+:root {
+    --r1: #ad2486;
+    --r2: #d78437;
+    --r3: #f2bc09;
+    --r4: #aaaf44;
+    --r5: #5da183;
+    --r6: #1d96b9;
+    --r7: #1c61c2;
+    --r8: #ee692c;
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 120deg;
+    inherits: true;
+}
+
+@keyframes rotateAngle {
+    100% {
+        --angle: 480deg;
+    }
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    --angle: 120deg;
+    background-image: conic-gradient(
+        from var(--angle),
+        var(--r7),
+        var(--r6),
+        var(--r5),
+        var(--r4),
+        var(--r3),
+        var(--r2),
+        var(--r1),
+        var(--r8)
+    );
+    animation: rotateAngle 3s linear infinite forwards;
+}
