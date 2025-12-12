@@ -29,5 +29,6 @@ Uber repo with html and css examples and courses
 - Validator.nu or W3C Validator - HTML validation
 - CSS Validator (https://jigsaw.w3.org/css-validator/) - CSS validation
 - DevTools - Built into Chrome, Firefox, Safari, and Edge for inspecting and debugging
+- Tailwind CSS: https://tailwindcss.com/plus/ui-blocks/documentation
 
 These resources will help you with syntax, best practices, browser compatibility, and modern web development techniques.
