@@ -3,11 +3,20 @@ Uber repo with html and css examples and courses
 
 ---
 
+# Tools and Resources for HTML and CSS
+- VS Code: https://code.visualstudio.com/
+  - Github theme (Optional): https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme
+- Live Server Extension: https://marketplace.visualstudio.com/items?itemName=ritwick
+- Prettier Extension: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+  
+
 # HTML and CSS references:
 
 ## Official Documentation
 - MDN Web Docs (https://developer.mozilla.org/en-US/docs/Web) - The most comprehensive and reliable resource for HTML, CSS, and web standards
 - W3C Specifications (https://www.w3.org/TR/) - Official web standards documentation
+- Emmet (https://docs.emmet.io/) - A toolkit for web developers that can greatly improve HTML and CSS workflow
 
 ## Quick References & Cheat Sheets
 - HTML Reference (https://htmlreference.io/) - Visual guide to HTML elements
