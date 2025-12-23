@@ -3,13 +3,48 @@ Uber repo with html and css examples and courses
 
 ---
 
-# Tools and Resources for HTML and CSS
+## VS Code 
+### Setup:
 - VS Code: https://code.visualstudio.com/
-  - Github theme (Optional): https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme
+- Github theme (Optional): https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme
 - Live Server Extension: https://marketplace.visualstudio.com/items?itemName=ritwick
+  - Start: Right-click on your HTML file in VS Code and select "Open with Live Server" to launch a local development server with live reload feature.
+    - Or click on the "Go Live" button in the bottom-right corner of VS Code.
+  - Stop: Click on the "Port: 5500" button in the bottom-right corner of VS Code and select "Stop Live Server".
 - Prettier Extension: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+  - NOTE: You may need to configure Prettier to format on save. Go to VS Code settings and search for "Format On Save" and enable it.
 
+### VS Code HTML Shortcuts:
+- CMD + Shift + P: Open Command Palette
+- CMD + F: Find in file
+- CMD + SHIFT + F: Find in all files
+- CMD + S: Save file
+- CMD + OPTION + S: Save all files
+- CMD + Z: Undo
+- CMD + SHIFT + Z: Redo
+- CMD + C: Copy (copies whole line if nothing is selected)
+- CMD + P: Quick Open files by name
+- CMD + SHIFT + /: Toggle line comment
+- CMD + D: Select next occurrence of current selection
+- CMD + SHIFT + L: Select all occurrences of current selection
+- OPTION + SHIFT + DOWN/UP ARROW: Expand selection up/down
+- OPTION + UP/DOWN ARROW: Move line up/down
+- SHIFT + OPTION + UP/DOWN ARROW: Copy line up/down
   
+### EMMET:
+- my-bootcamp/01-essential-html/11-emmet-crash-course/index.html for examples of EMMET shortcuts in action.
+- https://code.visualstudio.com/docs/editor/emmet for more EMMET shortcuts.
+- Emmet Documentation: https://docs.emmet.io/cheat-sheet/
+
+Examples:
+- `! + Tab`: Generates a basic HTML5 boilerplate.
+- `CMD + SHIFT + /`: Creates a comment.
+- `p#service + Tab`: Creates a `<p>` tag with an id of "service".
+- `div.container + Tab`: Creates a `<div>` with a class of "container".
+- `ul>li*5 + Tab`: Creates an unordered list with 5 list items
+- `a:link + Tab`: Creates an anchor tag for a link.
+
+---
 
 # HTML and CSS references:
 
