@@ -10,11 +10,14 @@
       <h1>Apartment Search</h1>
     </header>
     <main>
-      <form>
+      <!-- Send to my local Node.js server -->
+      <form action="http://localhost:3000/submit" method="POST">
         <div>
           <label for="location">Location</label>
           <input type="text" name="location" id="location" />
         </div>
+
+        <!-- Only using these br until we start styling with CSS -->
         <br />
 
         <div>

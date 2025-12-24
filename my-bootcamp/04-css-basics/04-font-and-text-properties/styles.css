@@ -1,21 +1,23 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 2;
 }
 
+/* Style for all anchor tags: remove underline */
 a {
   text-decoration: none;
 }
 
 h2 {
-  font-size: x-large;
+  font-size: x-large; /* possible values: large, medium, small, etc. */
   font-weight: 700;
   font-style: normal;
   font-variant: normal;
 
+  /* shorthand font property */
   /* font: italic small-caps 700 26px Arial; */
 
-  text-transform: capitalize;
+  text-transform: capitalize; /* other values: uppercase, lowercase, none */
   text-indent: 20px;
   letter-spacing: 2px;
   word-spacing: 5px;

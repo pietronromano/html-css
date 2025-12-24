@@ -4,15 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Sandbox</title>
+    <!-- NOT RECOMMENDED: The style tag is used for internal CSS, better to use external CSS files -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      form div {
+        margin-bottom: 10px;
+      }
+    </style>
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Labels & Text Based Inputs</h1>
 
     <form>
+      <!-- A div here helps group the label and input together for better structure and styling -->
       <div>
         <label for="name">Name</label>
+        <!-- label is connected to input via the label.for and input.id attributes -->
         <input type="text" id="name" />
       </div>
+      <!-- NOTE: we use line breaks (<br />) to add spacing between form groups 
+      for better readability for now. 
+      In a real project, consider using CSS for spacing instead.  
+      -->
       <br />
       <div>
         <label for="email">Email</label>
@@ -24,6 +40,7 @@
         <input type="password" id="password" />
       </div>
       <div>
+        <!-- Can use input.type = submit or button.type = submit -->
         <!-- <input type="submit" value="Submit" /> -->
         <button type="submit">Submit</button>
       </div>

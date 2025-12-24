@@ -1,20 +1,42 @@
 # html-css
+
 Uber repo with html and css examples and courses
 
 ---
 
-## VS Code 
+## VS Code
+
 ### Setup:
+
 - VS Code: https://code.visualstudio.com/
 - Github theme (Optional): https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme
-- Live Server Extension: https://marketplace.visualstudio.com/items?itemName=ritwick
-  - Start: Right-click on your HTML file in VS Code and select "Open with Live Server" to launch a local development server with live reload feature.
-    - Or click on the "Go Live" button in the bottom-right corner of VS Code.
-  - Stop: Click on the "Port: 5500" button in the bottom-right corner of VS Code and select "Stop Live Server".
-- Prettier Extension: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-  - NOTE: You may need to configure Prettier to format on save. Go to VS Code settings and search for "Format On Save" and enable it.
+
+
+### Recommended Extensions:
+  - *Live Server Extension*: https://marketplace.visualstudio.com/items?itemName=ritwick
+    - `Start`: Right-click on your HTML file in VS Code and select "Open with Live Server" to launch a local development server with live reload feature.
+      - Or click on the "Go Live" button in the bottom-right corner of VS Code.
+    - `Stop`: Click on the "Port: 5500" button in the bottom-right corner of VS Code and select "Stop Live Server".
+  - *Prettier Extension*: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    - Configure Prettier to format on save: Go to VS Code settings and search for:
+      - "Format On Save" and enable it.
+      - "Default Formatter" and set it to "Prettier - Code formatter".
+    - **NOTE**: THIS SCREWED UP MY MARKDOWN FORMATTING SO I HAD TO DISABLE IT FOR MARKDOWN FILES.
+      - Press Cmd+Shift+P to open Command Palette
+      - Type "Preferences: Open User Settings (JSON)"
+      - Press Enter
+      - Add the following configuration to disable Prettier for Markdown files:
+      ```json
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "[markdown]": {
+          "editor.formatOnSave": false
+          }
+      ```
+  - *Multiple cursor Case Preserve Extension*: https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve - This extension helps maintain the case (uppercase/lowercase) of text when using multiple cursors in VS Code.
 
 ### VS Code HTML Shortcuts:
+
 - CMD + Shift + P: Open Command Palette
 - CMD + F: Find in file
 - CMD + SHIFT + F: Find in all files
@@ -27,16 +49,20 @@ Uber repo with html and css examples and courses
 - CMD + SHIFT + /: Toggle line comment
 - CMD + D: Select next occurrence of current selection
 - CMD + SHIFT + L: Select all occurrences of current selection
+- OPTION + Click: Add cursor at clicked position
+- CMD + OPTION + DOWN/UP ARROW: Add cursor below/above
 - OPTION + SHIFT + DOWN/UP ARROW: Expand selection up/down
 - OPTION + UP/DOWN ARROW: Move line up/down
 - SHIFT + OPTION + UP/DOWN ARROW: Copy line up/down
-  
+
 ### EMMET:
+
 - my-bootcamp/01-essential-html/11-emmet-crash-course/index.html for examples of EMMET shortcuts in action.
 - https://code.visualstudio.com/docs/editor/emmet for more EMMET shortcuts.
 - Emmet Documentation: https://docs.emmet.io/cheat-sheet/
 
 Examples:
+
 - `! + Tab`: Generates a basic HTML5 boilerplate.
 - `CMD + SHIFT + /`: Creates a comment.
 - `p#service + Tab`: Creates a `<p>` tag with an id of "service".
@@ -49,27 +75,32 @@ Examples:
 # HTML and CSS references:
 
 ## Official Documentation
+
 - MDN Web Docs (https://developer.mozilla.org/en-US/docs/Web) - The most comprehensive and reliable resource for HTML, CSS, and web standards
 - W3C Specifications (https://www.w3.org/TR/) - Official web standards documentation
 - Emmet (https://docs.emmet.io/) - A toolkit for web developers that can greatly improve HTML and CSS workflow
 
 ## Quick References & Cheat Sheets
+
 - HTML Reference (https://htmlreference.io/) - Visual guide to HTML elements
 - CSS Reference (https://cssreference.io/) - Visual guide to CSS properties
 - Can I Use (https://caniuse.com/) - Browser compatibility tables for HTML5, CSS3, and web APIs
 - CSS-Tricks (https://css-tricks.com/) - Practical guides and almanac
 
 ## Interactive Learning
+
 - MDN Learning Area (https://developer.mozilla.org/en-US/docs/Learn) - Structured learning paths
 - web.dev (https://web.dev/learn/) - Google's learning resources for modern web development
 
 ## Specific Topics
+
 - Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - Grid: https://css-tricks.com/snippets/css/complete-guide-grid/
 - Selectors: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 - Colour Palettes: https://www.color-hex.com/color-palettes/
 
 ## Tools
+
 - Validator.nu or W3C Validator - HTML validation
 - CSS Validator (https://jigsaw.w3.org/css-validator/) - CSS validation
 - DevTools - Built into Chrome, Firefox, Safari, and Edge for inspecting and debugging

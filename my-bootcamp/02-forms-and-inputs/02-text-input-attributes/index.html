@@ -8,7 +8,8 @@
   <body>
     <h1>HTML & CSS Sandbox - Labels & Text Based Input Attributes</h1>
 
-    <form>
+    <!-- Send to my local Node.js server -->
+    <form action="http://localhost:3000/submit" method="POST">
       <div>
         <label for="name">Name</label>
         <input
@@ -24,6 +25,7 @@
       <br />
       <div>
         <label for="email">Email</label>
+        <!-- The value attribute sets a default value, and the disabled attribute makes the input uneditable -->
         <input
           type="email"
           id="email"
@@ -44,6 +46,7 @@
           name="password"
           required
           minlength="6"
+          maxlength="12"
         />
       </div>
       <div>

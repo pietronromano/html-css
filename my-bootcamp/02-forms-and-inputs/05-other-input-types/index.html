@@ -8,9 +8,12 @@
   <body>
     <h1>HTML & CSS Sandbox - Other Input Types</h1>
 
-    <form>
+    <!-- Send to my local Node.js server -->
+    <form action="http://localhost:3000/submit" method="POST">
       <div>
         <label for="color">Color</label>
+        <!-- The color input allows users to select a color, using a color picker
+         the value is sent as a hexadecimal color code to the server -->
         <input type="color" name="color" id="color" />
       </div>
       <br />

@@ -7,7 +7,8 @@
   </head>
   <body>
     <h1>Favorite Programming Languages</h1>
-    <form>
+    <!-- Send to my local Node.js server -->
+    <form action="http://localhost:3000/submit" method="POST">
       <label for="html">
         <input
           type="checkbox"
@@ -19,6 +20,7 @@
         HTML
       </label>
       <label for="css">
+        <!-- checked shows the checkbox is selected by default -->
         <input type="checkbox" name="languages" id="css" value="css" checked />
         CSS
       </label>
@@ -36,6 +38,7 @@
 
     <h2>Product Size</h2>
     <form>
+      <!-- Radio buttons only allow one option to be selected at a time -->
       <label for="small">
         <input type="radio" name="size" id="small" value="small" />
         Small

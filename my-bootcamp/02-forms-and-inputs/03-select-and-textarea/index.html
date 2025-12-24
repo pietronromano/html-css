@@ -7,9 +7,12 @@
   </head>
   <body>
     <h1>Tech Support</h1>
-    <form>
+    <!-- Send to my local Node.js server -->
+    <form action="http://localhost:3000/submit" method="POST">
       <label for="product">Product</label>
       <br />
+      <!-- The select element allows users to choose from a list of options
+        Note the attributes: multiple, size, option.selected -->
       <select name="product" id="product" multiple size="4">
         <option value="iphone">iPhone</option>
         <option value="imac" selected>iMac</option>
@@ -20,6 +23,9 @@
       <br />
       <label for="message">Message</label>
       <br />
+
+      <!-- The textarea element allows users to enter multi-line text input
+        rows and cols specify the visible dimensions -->
       <textarea
         name="message"
         id="message"

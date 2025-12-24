@@ -1,11 +1,14 @@
 html,
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
+  /* Border isn't inherited by all child elements, so we add it here for demonstration 
+     For that use Universal Selectors, which select all elements. The asterisk (*) is the universal selector
+  */
   border: 3px solid red;
 }
 
 /* Type Selectors */
-/* h2 {
+h2 {
   color: red;
   font-size: 30px;
 }
@@ -13,9 +16,9 @@ body {
 a {
   color: blue;
   text-decoration: none;
-} */
+}
 
-/* Class Selectors */
+/* Class Selectors: start with a period "." */
 .sporty {
   color: red;
 }
@@ -28,20 +31,26 @@ a {
   color: brown;
 }
 
-/* ID Selectors */
-#container {
-  max-width: 600px;
-  margin: 100px auto;
-  padding: 20px;
-}
-
 /* Multiple Styles */
 .sporty,
 .casual {
   font-size: 35px;
 }
 
+/* ID Selectors: start with a hash "#"
+  NOTE: IDs are not recommended for styling purposes, as they are meant to be unique
+  and can lead to specificity issues.
+  Best practice is to use classes for styling.
+*/
+#container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
 /* Descedant Styles */
-/* #container p {
+/* Selects all <p> elements inside the element with the ID "container" 
+  This has a higher specificity than just selecting all <p> elements */
+*/ #container p {
   background: blue;
-} */
+}
