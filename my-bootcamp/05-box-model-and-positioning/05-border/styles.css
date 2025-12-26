@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .box {
@@ -13,7 +13,7 @@ body {
   margin: 20px;
   padding: 20px;
 
-  /* Shorthand */
+  /* Shorthand: width style color */
   border: 2px solid black;
 
   /* Same as above */
@@ -30,7 +30,9 @@ body {
 }
 
 .box-2 {
-  /* Border radius */
+  /* Border radius 
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius
+  */
   border-radius: 10px;
   /* border-radius: 50%; */
 }

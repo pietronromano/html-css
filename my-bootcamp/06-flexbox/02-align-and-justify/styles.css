@@ -1,3 +1,10 @@
+/*
+  - Flexbox: Align and Justify Content
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/19142420#overview
+
+  - In Chrome Dev Tools, try changing the values of justify-content, align-items and other properties to see how they affect the layout of the flex items.
+*/
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -8,7 +15,9 @@ body {
   height: 800px;
   display: flex;
   flex-direction: row;
+  /* Possible values: flex-start, flex-end, center, space-between, space-around, space-evenly */
   justify-content: space-between;
+  /* Possible values: flex-start, flex-end, center, stretch, baseline */
   align-items: center;
 }
 
@@ -20,6 +29,7 @@ body {
 }
 
 .item-2 {
+  /* Override container align-items for this specific item */
   align-self: flex-end;
 }
 

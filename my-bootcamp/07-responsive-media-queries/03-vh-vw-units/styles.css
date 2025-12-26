@@ -1,3 +1,22 @@
+/*
+
+The viewport — which is the visible area of your page in the browser you are using to view a site — also has a size. In CSS, we have units that relate to the size of the viewport — the vw unit for viewport width, and vh for viewport height. Using these units, you can size something relative to the viewport of the user.
+
+- 1vh is equal to 1% of the viewport height, and - 1vw is equal to 1% of the viewport width. You can use these units to size boxes, but also text.
+
+  Viewport Units (vh, vw)
+  - vh: viewport height
+  - vw: viewport width
+
+  1vh = 1% of the viewport height
+  1vw = 1% of the viewport width
+
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285378#overview
+  - https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Sizing#viewport_units
+  
+*/
+
+
 * {
   margin: 0;
   padding: 0;

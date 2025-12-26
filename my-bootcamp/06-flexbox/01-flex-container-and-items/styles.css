@@ -1,3 +1,22 @@
+/* 
+  Flexbox: Container and Items
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44263810#overview
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285416#overview
+
+  - css-tricks flexbox guide:
+  - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+
+  Flexbox replaced floats for layout: floating required knowing exact sizes, and was never intended for layout.
+  Flex items are placed in a flex container.
+  Flexbox is a one-dimensional layout model.
+  Flexbox can arrange items in rows or columns.
+
+  Example sites:
+  - https://flexboxfroggy.com/
+  - https://www.microsoft.com/en-us/
+*/
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -5,13 +24,19 @@ body {
 .flex-container {
   background: #ccc;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px;
+  flex-direction: row; /* default value */
+  justify-content: flex-start; /* default value */
+  flex-wrap: wrap; /* default value is nowrap */
+  /* gap means the space between flex items, so we don't need margins on items */
+  gap: 10px; /* shorthand for row-gap and column-gap */
   /* row-gap: 10px; */
   /* column-gap: 10px; */
 }
 
+/* 
+  Items don't need any specific flex properties 
+  Items need to be direct children of the flex container, not nested further down
+*/
 .flex-item {
   height: 200px;
   width: 200px;

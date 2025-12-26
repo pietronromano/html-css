@@ -1,3 +1,19 @@
+/* 
+  Media Queries 
+
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285386#overview
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+
+  Media queries allow you to apply CSS styles depending on a device's media type (such as print vs. screen) or other features or characteristics such as screen resolution or orientation, aspect ratio, browser viewport width or height, user preferences such as preferring reduced motion, data usage, or transparency.
+
+@media screen and (max-width: Xpx min-width: Ypx or orientation: landscape) {
+  - max-width: ..px : Applies styles when the viewport width is less than or equal to the specified value. Referred to as "Breakpoints". Used in "Desktop First" Design.
+  - min-width: ..px : Applies styles when the viewport width is greater than or equal to the specified value. Most commonly used in "Mobile First" Design.
+  - orientation: landscape | portrait : Applies styles based on the device's orientation.
+  
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +48,7 @@ body {
   }
 }
 
+/* Orientation and Height Media Queries */
 @media (orientation: landscape) {
   .landscape {
     background: lightgoldenrodyellow;
@@ -44,6 +61,7 @@ body {
   }
 }
 
+/* Combined Media Queries */
 @media (min-width: 768px) and (max-width: 991px) {
   body {
     background: #333;

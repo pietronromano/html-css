@@ -1,3 +1,21 @@
+/*
+  Container Units
+
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44264010#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries#container_query_length_units
+
+
+Container query length units
+When applying styles to a container using container queries, you can use container query length units. These units specify a length relative to the dimensions of a query container:
+The container query length units are:
+- cqw: 1% of a query container's width
+- cqh: 1% of a query container's height
+- cqi: 1% of a query container's inline size
+- cqb: 1% of a query container's block size
+- cqmin: The smaller value of either cqi or cqb
+- cqmax: The larger value of either cqi or cqb
+
+*/
 * {
   margin: 0;
   padding: 0;

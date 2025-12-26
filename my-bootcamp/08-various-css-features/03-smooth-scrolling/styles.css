@@ -1,3 +1,13 @@
+/* 
+  Smooth Scrolling
+  Smooth scrolling is a CSS feature that allows for a gradual transition when navigating to different sections of a webpage using anchor links. 
+  This used to require complex JavaScript, but with the `scroll-behavior` property in CSS, it can be achieved easily.
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285466#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
+ */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +16,7 @@
 
 html,
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   line-height: 1.6;
   scroll-behavior: smooth;

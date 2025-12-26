@@ -1,3 +1,29 @@
+/* 
+  Attribute Selectors
+  The CSS attribute selector matches elements based on the element having a given attribute explicitly set, with options for defining an attribute value or substring value match.
+
+
+<a> elements with a title attribute 
+a[title] {
+  color: purple;
+}
+
+<a> elements with an href matching "https://example.org" 
+a[href="https://example.org"] {
+  color: green;
+}
+
+<a> elements with an href containing "example" 
+a[href*="example"] {
+  font-size: 2em;
+}
+
+References:
+- https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285604#overview
+- https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285604#overview
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +31,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
@@ -73,17 +99,17 @@ button:hover {
 }
 
 /* Select by type attribute */
-input[type='email'] {
+input[type="email"] {
   border-color: green;
 }
 
 /* Select by name attribute */
-input[name='name'] {
+input[name="name"] {
   border-color: blue;
 }
 
 /* Select text type and id of name */
-input[type='text'][id='name'] {
+input[type="text"][id="name"] {
   background: lightblue;
 }
 
@@ -93,26 +119,26 @@ input[required] {
 }
 
 /* Select password with a maxlength of 8 */
-input[type='password'][maxlength='8'] {
+input[type="password"][maxlength="8"] {
   background: green;
 }
 
 /* Select button with type of submit */
-button[type='submit'] {
+button[type="submit"] {
   background: purple;
 }
 
 /* Select only links that have a href attribute starting with # */
-a[href^='#'] {
+a[href^="#"] {
   color: yellow;
 }
 
 /* Select only links that have a href attribute ending with .com */
-a[href$='.com'] {
+a[href$=".com"] {
   color: lightgreen;
 }
 
 /* Select only links that have a href attribute containing traversy */
-a[href*='traversy'] {
+a[href*="traversy"] {
   text-decoration: underline;
 }

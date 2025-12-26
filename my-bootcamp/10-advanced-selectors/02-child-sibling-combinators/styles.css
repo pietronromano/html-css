@@ -1,3 +1,26 @@
+/* 
+  Child and Sibling Combinators
+  - Combinators only select direct children or siblings
+  - Child Combinator: > 
+  - General Sibling Combinator: ~
+  - Adjacent Sibling Combinator: +
+
+  Contrast with Descendant Combinator (space) which selects all nested elements:
+    .container p {
+      color: red;
+    }
+
+  Combinator:
+    .container > p {
+      color: red;
+    }
+
+  Referenes:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285610#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Descendant_combinator
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +28,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   line-height: 2;
 }
 

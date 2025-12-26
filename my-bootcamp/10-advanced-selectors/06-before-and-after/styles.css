@@ -1,3 +1,35 @@
+/* before and after Pseudo-elements 
+
+    - Used to insert content before or after an element's actual content
+    - Commonly used for decorative purposes or to add extra information
+      - Good for overlays, icons, additional text, quotes, or other visual elements without modifying the HTML structure
+    - They do not affect the document flow, meaning they don't take up space in the layout
+    - Syntax:
+      selector::before {
+        content: 'Your content here';
+        additional styles... 
+      }
+      
+      selector::after {
+        content: 'Your content here';
+        
+      }
+
+   Limitations:
+    - pseudo-elements can't be applied to replaced elements such as <img>, whose contents are determined by external resources and not affected by the current document's styles.
+      - SEE: http://developer.mozilla.org/en-US/docs/Glossary/Replaced_elements
+    - The content property is required; without it, the pseudo-elements won't render
+    - They can only insert text or images (via the content property); they cannot insert complex HTML structures
+    - Styling options are limited compared to regular elements; for example, you can't apply certain CSS properties like display: block directly to them
+
+ 
+ References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285626#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/::before
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/::after
+*/
+
+/* Reset: include the before and after pseudo-elements to keep consistency */
 *,
 *::before,
 *::after {
@@ -7,7 +39,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .container {
@@ -32,20 +64,20 @@ input {
 }
 
 h2::before {
-  content: 'Hello';
+  content: "Hello";
   color: red;
   margin-right: 5px;
 }
 
 label.is-required::after {
-  content: '*';
+  content: "*";
   color: red;
   margin-left: 5px;
   font-size: 1.2rem;
 }
 
 h2::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;

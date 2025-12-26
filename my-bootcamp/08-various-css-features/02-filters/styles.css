@@ -1,3 +1,23 @@
+/* 
+  Vendor Prefixes, Filters
+
+  - CSS specifications are often implemented with vendor prefixes to ensure compatibility across different browsers.
+  - Common vendor prefixes include:
+    - -webkit- (for Chrome, Safari)
+    - -moz- (for Firefox)
+    - -o- (for Opera)
+    - -ms- (for Internet Explorer), no longer widely used.
+
+    CSS specification:
+    - Now separated into modules, developed separately, developed at different paces.
+    - Different browsers may implement different modules at different times.
+    - so not all properties need prefixes anymore.
+     
+    References:
+    - https://www.w3.org/Style/CSS/
+    - https://caniuse.com/ for current support status.
+
+ */
 .container {
   max-width: 900px;
   margin: 70px auto;
@@ -8,8 +28,12 @@ img {
   /* -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -o-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  filter: grayscale(100%); */
+  -ms-filter: grayscale(100%);*/
+
+  /* Single Filters: can only use one at a time, last one gets applied 
+    In Chrome DevTools, you can toggle filters on and off to see their effects.
+  */
+  /*filter: grayscale(100%); */
   /* filter: blur(5px); */
   /* filter: brightness(200%); */
   /* filter: contrast(50%); */
@@ -20,7 +44,7 @@ img {
   /* filter: saturate(200%); */
   /* filter: sepia(100%); */
 
-  /* Chain Filters */
+  /* Chain Filters: allows a combination of multiple filters */
   filter: grayscale(100%) blur(5px);
 
   /* Reset Filters */

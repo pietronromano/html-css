@@ -1,3 +1,15 @@
+/* 
+  Positioning in CSS
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44263788#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+  Position Values:
+    - static (default)
+    - relative
+    - absolute
+    - fixed
+    - sticky
+*/
 body {
   font-family: Arial, sans-serif;
 }
@@ -14,21 +26,22 @@ body {
 }
 
 .box-1 {
-  position: static;
-  left: 30px;
+  position: static; /* default value */
+  left: 30px; /* has no effect when position is static */
 }
 
 .box-2 {
-  position: relative;
+  position: relative; /* positioned relative to its normal position */
   left: 30px;
   top: 20px;
 }
 
 .box-3 {
-  position: fixed;
+  /* fixed takes the element out of the normal document flow */
+  position: fixed; /* positioned relative to the viewport, stays in the same place even during scroll */
   top: 0;
-  right: ;
-  z-index: 2;
+  right: 0;
+  z-index: 2; /* ensures it stays on top of other elements */
 }
 
 .box-4 {

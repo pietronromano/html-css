@@ -1,5 +1,16 @@
+/* 
+   Pseudo-classes Example Styles
+
+  - A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s).
+  - A CSS pseudo-class is a keyword added to a selector that specifies a specific state of the selected element(s).
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285620#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+*/
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 /* Style the first li of it's parent */
@@ -36,7 +47,7 @@ ul li:nth-child(4n) {
   background: orange;
 }
 
-/* Style the only child */
+/* Style the only child (only works if there's only one child) */
 ul li:only-child {
   background: black;
   color: white;

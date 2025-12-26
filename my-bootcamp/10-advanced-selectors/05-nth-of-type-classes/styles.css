@@ -1,3 +1,14 @@
+/* nth of type Pseudo-classes 
+
+ These pseudo-classes allow you to select elements based on their position among siblings of the same type.
+
+References:
+- https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285622#overview
+- https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type
+- https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type- https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type
+
+*/
+
 body {
   font-family: 'Arial', sans-serif;
 }

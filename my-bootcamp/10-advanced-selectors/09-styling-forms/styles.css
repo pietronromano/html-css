@@ -1,3 +1,11 @@
+/* 
+  Styling Forms 
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44264192#overview
+ 
+*/
+
 *,
 *:before,
 *:after {
@@ -11,7 +19,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #f4f4f4;
   display: flex;
   justify-content: center;
@@ -42,8 +50,8 @@ label {
   font-weight: bold;
 }
 
-input[type='text'],
-input[type='email'],
+input[type="text"],
+input[type="email"],
 textarea {
   width: 100%;
   padding: 10px;
@@ -62,7 +70,7 @@ textarea {
   height: 100px;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   background: var(--primary-color);
   color: #fff;
   border: none;
@@ -73,7 +81,7 @@ input[type='submit'] {
   font-family: inherit;
 }
 
-input[type='submit']:hover {
+input[type="submit"]:hover {
   background: #0056b3;
 }
 

@@ -1,3 +1,14 @@
+/* 
+  Pseudo-elements 
+
+  - A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s).
+ 
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285616#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +16,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   line-height: 1.6;
 }
 
@@ -35,6 +46,7 @@ p::first-line {
   color: purple;
 }
 
+/* Highlights selected text in the paragraph */
 p::selection {
   color: red;
   background: yellow;
@@ -49,6 +61,7 @@ input::placeholder {
   font-weight: bold;
 }
 
+/* Styles the file selector button of input elements, this couldn't be done previously simply by styling the button element */
 input::file-selector-button {
   font-weight: bold;
   color: dodgerblue;
@@ -58,6 +71,7 @@ input::file-selector-button {
   border-radius: 3px;
 }
 
+/* Inserts content: a pointing finger emoji before list item markers */
 li::marker {
-  content: '👉';
+  content: "👉";
 }

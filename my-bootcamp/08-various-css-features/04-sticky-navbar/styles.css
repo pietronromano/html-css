@@ -1,4 +1,11 @@
-* {
+/* 
+  Sticky Navbar
+  Here we use javaScript to add a class to the header when the user scrolls down. 
+  This class makes the header background semi-transparent.
+  You can test this by scrolling down the page
+  iIn Chrome DevTools, you can see the class being added/removed in the "Elements" tab.
+*/
+*/ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +17,7 @@
 
 html,
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   line-height: 1.6;
   scroll-behavior: smooth;

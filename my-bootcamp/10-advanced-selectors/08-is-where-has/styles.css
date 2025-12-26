@@ -1,3 +1,16 @@
+/*
+  Styles for Advanced Selectors - :is(), :where(), :has()
+  - is(): selects any element that can be selected by one of the selectors in that list. This is useful for writing large selectors in a more compact form.  
+  - where(): works similarly to :is(), but it has no specificity. This means that it won't affect the specificity of the overall selector, making it useful for applying styles without increasing specificity.
+  - has(): selects elements that contain a certain descendant element. This is useful for styling parent elements based on their children.
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44264190#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:is
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:where
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/:has
+ */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +18,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .container {
@@ -13,12 +26,19 @@ body {
   margin: 30px auto;
 }
 
-/* .container h1,
+/* NOTE: THESE EXAMPLES WON'T WORK ALL AT THE SAME TIME: 
+  DISABLE/ENABLE THEM ONE AT A TIME TO SEE THE EFFECTS IN CHROME DEVTOOLS
+*/
+
+/* The long way to write the same styles using regular selectors:
+.container h1,
 .container h2,
 .container p {
   color: red;
 }
+*/
 
+/* The short way to write the same styles using :is() */
 .container :is(h1, h2, p) {
   color: blue;
 }
@@ -27,14 +47,17 @@ a:is(:hover, :focus) {
   background-color: pink;
 }
 
+/* The same as :is() but with no specificity */
 .container :where(h1, h2, p) {
   color: green;
-} */
+}
 
+/* Select .container if it has an h1 with a span inside */
 .container:has(h1 span) {
   color: red;
 }
 
+/* Select an h1 if it has an adjacent sibling h2 */
 h1:has(+ h2) {
   color: blue;
 }

@@ -35,8 +35,8 @@ Uber repo with html and css examples and courses
       ```
   - *Multiple cursor Case Preserve Extension*: https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve - This extension helps maintain the case (uppercase/lowercase) of text when using multiple cursors in VS Code.
 
-### VS Code HTML Shortcuts:
 
+### VS Code HTML Shortcuts:
 - CMD + Shift + P: Open Command Palette
 - CMD + F: Find in file
 - CMD + SHIFT + F: Find in all files
@@ -55,26 +55,34 @@ Uber repo with html and css examples and courses
 - OPTION + UP/DOWN ARROW: Move line up/down
 - SHIFT + OPTION + UP/DOWN ARROW: Copy line up/down
 
-### EMMET:
 
+### EMMET:
 - my-bootcamp/01-essential-html/11-emmet-crash-course/index.html for examples of EMMET shortcuts in action.
 - https://code.visualstudio.com/docs/editor/emmet for more EMMET shortcuts.
 - Emmet Documentation: https://docs.emmet.io/cheat-sheet/
 
 Examples:
-
 - `! + Tab`: Generates a basic HTML5 boilerplate.
 - `CMD + SHIFT + /`: Creates a comment.
 - `p#service + Tab`: Creates a `<p>` tag with an id of "service".
 - `div.container + Tab`: Creates a `<div>` with a class of "container".
 - `ul>li*5 + Tab`: Creates an unordered list with 5 list items
+- `div.flex-item*10{Item $} + Tab`: Creates 10 divs with class "flex-item" and text "Item 1", "Item 2", ..., "Item 10".
 - `a:link + Tab`: Creates an anchor tag for a link.
 
 ---
 
-# HTML and CSS references:
+## Chrome DevTools
+- Open DevTools: Cmd + Option + I (Mac) / Ctrl + Shift + I (Windows)
+- Toogle device toolbar (responsive design mode): Cmd + Shift + M (Mac) / Ctrl + Shift + M (Windows)
+- Open CSS overview: Cmd + Shift + P (Mac) / Ctrl + Shift +
+- Hover over Styles box to highlight box model details
 
-## Official Documentation
+---
+
+## HTML and CSS references:
+
+### Official Documentation
 
 - MDN Web Docs (https://developer.mozilla.org/en-US/docs/Web) - The most comprehensive and reliable resource for HTML, CSS, and web standards
 - W3C Specifications (https://www.w3.org/TR/) - Official web standards documentation

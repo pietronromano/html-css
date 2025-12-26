@@ -1,3 +1,8 @@
+/* 
+ Responsive Pricing Grid CSS
+ https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44263990#overview
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +10,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   line-height: 1.6;
   background-color: #27264b;

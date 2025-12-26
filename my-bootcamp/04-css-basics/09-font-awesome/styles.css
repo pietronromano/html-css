@@ -2,7 +2,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* .fa-facebook {
+/* Icons are technically fonts, so we can style them like text */
+ .fa-facebook {
   color: blue;
   font-size: 50px;
-} */
+} 

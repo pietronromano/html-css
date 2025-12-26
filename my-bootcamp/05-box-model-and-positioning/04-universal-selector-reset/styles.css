@@ -1,11 +1,15 @@
+/* Universal Selector Reset: applied to every element */
 * {
   margin: 0;
   padding: 0;
+  /* Include padding and border in element's total width and height, but not margin 
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing
+  */
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .box {

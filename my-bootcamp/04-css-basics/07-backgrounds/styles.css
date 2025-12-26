@@ -13,14 +13,14 @@ body {
   /* Background Color */
   /* background-color: coral; */
 
-  /* Background Image */
-  /* background-image: url('./hero.jpg');
+  /* Background Image: repeat automatically */
+  background-image: url('./hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; */
-  /* background-attachment: fixed; */
+  background-position: center; 
+  background-attachment: fixed; 
 
-  background: url('./hero.jpg') no-repeat center/cover;
+  /*background: url('./hero.jpg') no-repeat center/cover; */
 
   /* Linear gradient */
   /* background: linear-gradient(to bottom, lightblue, darkblue);

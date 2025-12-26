@@ -1,3 +1,14 @@
+/* 
+  calc() Function
+  - Using calc() to create flexible layouts
+  - Combining different units
+  - Dynamic sizing based on container dimensions
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44264064#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/calc
+
+*/
 * {
   margin: 0;
   padding: 0;

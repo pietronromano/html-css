@@ -1,3 +1,37 @@
+/* 
+  Nesting 
+  - Allows nesting of selectors and properties in CSS to improve readability and maintainability
+  - Mirrors the structure of HTML
+  - Best not to overuse nesting to avoid complexity, maximum 3 levels deep is a good rule of thumb
+  - Used to be only available in preprocessors like SASS or LESS
+  - Now supported natively in modern browsers: will be used more and more in the future
+
+  Example usage with nesting:
+  .parent {
+    color: blue;
+
+    .child {
+      color: red;
+    }
+  }
+
+  Same styles without nesting:
+  .parent {
+    color: blue;
+  }
+  .parent .child {
+    color: red;
+  }
+ 
+
+  References:
+  - Packt, Practical HTML and CSS: Chapter 13: The Future of HTML and CSS – Advancements and Trends, Nesting
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44264068#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Nesting
+  - https://caniuse.com/css-nesting
+
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +39,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.6;
 }
 
@@ -29,6 +63,7 @@ a {
   background: lightcoral;
   padding: 0 20px;
 
+  /* Nested h1 within the hero class */
   h1 {
     font-size: 4rem;
     line-height: 1.2;

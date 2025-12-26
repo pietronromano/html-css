@@ -1,13 +1,19 @@
+/*
+  Display Property
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44263784#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/display
+*/
+
 body {
   font-family: Arial, sans-serif;
 }
 
 .none-el {
-  display: none;
+  display: none; /* element is removed from the document flow */
 }
 
 .hidden-el {
-  visibility: hidden;
+  visibility: hidden; /* element is hidden but still takes up space */
 }
 
 /* p {
@@ -19,7 +25,7 @@ a {
 } */
 
 a {
-  display: inline-block;
+  display: inline-block; /* behaves like inline element but accepts box model properties (margin, padding, border) */
   background: lightblue;
   border: blue solid 1px;
   padding: 10px;

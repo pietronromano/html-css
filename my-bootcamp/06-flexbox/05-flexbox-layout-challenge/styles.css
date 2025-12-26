@@ -1,3 +1,8 @@
+/*
+  - Flexbox: Layout Challenge
+  https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44263844#overview
+  */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +10,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.6;
 }
 

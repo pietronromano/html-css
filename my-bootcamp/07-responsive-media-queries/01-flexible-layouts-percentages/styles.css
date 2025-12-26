@@ -1,3 +1,11 @@
+/*
+  Respsonsive Media Queries - Flexible Layouts with Percentages
+
+  Percentages allow elements to scale relative to their parent container,
+  making layouts more adaptable to different screen sizes.
+
+  */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,16 +13,17 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 img {
+  /* Ensures images don't overflow and can scale within their containers */
   max-width: 100%;
 }
 
 .container {
-  width: 80%;
-  max-width: 1100px;
+  width: 80%; /* sometimes need to use higher percentages on smaller screens*/
+  max-width: 1100px; /* [surprisingle] very effective for responsive layouts */
   margin: 15% auto;
   padding: 20px;
 }
