@@ -1,3 +1,16 @@
+/* 
+  Positioning & Spanning
+  - span keyword: allows an item to span across multiple columns or rows without specifying exact start and end lines.
+  - grid-column: shorthand property for setting both grid-column-start and grid-column-end.
+  - grid-row: shorthand property for setting both grid-row-start and grid-row-end. 
+
+
+  References
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285654#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row
+
+ */
 body {
   font-family: Arial, sans-serif;
 }

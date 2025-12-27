@@ -1,3 +1,16 @@
+/* 
+Grid and Media Queries
+
+- Create a responsive grid layout that adjusts based on screen size.
+- Use media queries to change the grid structure for smaller screens.
+
+
+References:
+- https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44264692#overview
+
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -51,6 +64,11 @@ footer {
   grid-column: span 2;
 }
 
+/* 
+  768px is a useful threshold for mobile devices 
+  Try resizing the browser to see the effect -
+  Or setting to mobile device mode in browser dev tools
+*/
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;

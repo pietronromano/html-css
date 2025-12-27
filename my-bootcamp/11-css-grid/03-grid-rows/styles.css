@@ -1,3 +1,16 @@
+/* 
+  Grid Rows
+  - grid-template-rows: Defines the height of each row in the grid
+  - grid-auto-rows: Defines the height of rows that are created automatically
+    when content is added beyond the defined rows
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285646#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows
+
+
+*/
 body {
   font-family: Arial, sans-serif;
 }

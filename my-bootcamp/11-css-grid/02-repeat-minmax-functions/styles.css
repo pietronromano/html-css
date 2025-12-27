@@ -1,3 +1,17 @@
+/* repeat() & minmax()
+
+  - repeat() - allows you to repeat columns or rows without having to type them out multiple times
+  - minmax(min, max) - allows you to set a minimum and maximum size for a column or row
+    - Each parameter can be a <length>, a <percentage> or one of the keyword values max-content, min-content, or auto.
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285652#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/minmax
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/repeat
+
+
+*/
+
 body {
   font-family: Arial, sans-serif;
 }

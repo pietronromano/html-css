@@ -1,3 +1,17 @@
+/* 
+  Grid Template Areas
+  - Grid Template Areas allow you to define, "physical", named areas within your grid layout.
+  - This makes it easier to visualize and manage complex grid layouts.
+  - These are an alternative to using grid-row and grid-column for positioning items.
+  - Each area is defined by a name, and you can assign grid items to these areas using the grid-area property.
+  - Area names can be seen in the Chrome DevTools Layout tab.
+
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44264708#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -11,32 +25,33 @@ body {
 .container {
   display: grid;
   gap: 1rem;
+  /* Define the grid template areas */
   grid-template-areas:
-    'header header search'
-    'nav nav nav'
-    'main main aside'
-    'footer footer footer';
+    "header header search"
+    "nav nav nav"
+    "main main aside"
+    "footer footer footer";
 }
 
 header {
   background-color: #333;
   color: #fff;
   padding: 20px;
-  grid-area: header;
+  grid-area: header; /* Assign to header area */
 }
 
 nav {
   background-color: #444;
   color: #fff;
   padding: 20px;
-  grid-area: nav;
+  grid-area: nav; /* Assign to nav area */
 }
 
 .search {
   background-color: #666;
   color: #fff;
   padding: 20px;
-  grid-area: search;
+  grid-area: search; /* Assign to search area */
 }
 
 main {
@@ -61,11 +76,11 @@ footer {
 @media (max-width: 768px) {
   .container {
     grid-template-areas:
-      'header'
-      'search'
-      'nav'
-      'main'
-      'aside'
-      'footer';
+      "header"
+      "search"
+      "nav"
+      "main"
+      "aside"
+      "footer";
   }
 }

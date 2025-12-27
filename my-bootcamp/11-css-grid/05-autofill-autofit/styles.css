@@ -1,3 +1,12 @@
+/* 
+  autofill & autofit
+  - auto-fill: Fills the row with as many columns as possible, even if some are empty
+  - auto-fit: Fills the row with as many columns as possible, collapsing empty columns
+
+  References:
+  -  https://developer.mozilla.org/en-US/docs/Web/CSS/repeat
+*/
+
 body {
   font-family: Arial, sans-serif;
 }

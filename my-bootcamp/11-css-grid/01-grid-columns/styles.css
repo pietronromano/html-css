@@ -1,3 +1,14 @@
+/* 
+  CSS Grid - Grid Columns
+  - CSS Grid allows precise layout of multiple columns and rows
+  - Grid is best used for overall page layout and navigation, while Flexbox is better for smaller components
+
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285638#overview
+  -  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+*/
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -15,11 +26,13 @@ body {
   text-align: center;
 }
 
+/* CSS Grid needs items to be defined */
 .item-grid {
   display: grid;
+  /* Can mix fixed and flexible units */
   grid-template-columns: 600px 1fr 1fr;
   /* grid-row-gap: 20px; */
   /* grid-column-gap: 20px; */
   /* grid-gap: 20px; */
-  gap: 20px;
+  gap: 20px; /* shorthand for row and column gap */
 }

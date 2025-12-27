@@ -1,3 +1,18 @@
+/* 
+  Named Grid Lines
+
+  In this example, we define named grid lines for both columns and rows.
+  This allows us to position grid items using these names, making the layout more readable and easier to manage.
+
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285656#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+
+  
+*/
+
+
 body {
   font-family: Arial, sans-serif;
 }

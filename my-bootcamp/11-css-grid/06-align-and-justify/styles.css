@@ -1,3 +1,22 @@
+/* 
+  Align & Justify 
+  - justify-content: Aligns the grid container's content horizontally
+  - align-content: Aligns the grid container's content vertically
+  - justify-items: Aligns grid items horizontally within their grid area
+  - align-items: Aligns grid items vertically within their grid area
+  - place-content: Shorthand for align-content and justify-content
+  - place-items: Shorthand for align-items and justify-items
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285650#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/place-content
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/place-items
+
+*/
 body {
   font-family: Arial, sans-serif;
 }
