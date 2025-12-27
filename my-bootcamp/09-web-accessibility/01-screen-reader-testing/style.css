@@ -1,3 +1,10 @@
+/*
+  Accessibility
+
+  References:
+  - Packt, Practical HTML5 and CSS3, Chapter 9: Ensuring Accessibility in HTML and CSS
+  
+ */
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +12,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 1.6;
 }
 
@@ -60,7 +67,7 @@ body {
   align-items: center;
 }
 
-.search input[type='text'] {
+.search input[type="text"] {
   padding: 8px;
   border: none;
   border-radius: 5px 0 0 5px;
