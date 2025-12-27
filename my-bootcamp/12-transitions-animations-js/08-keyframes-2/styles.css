@@ -1,3 +1,14 @@
+/* 
+  Keyframes 2
+
+  Keyframes are used to create complex animations by defining multiple stages of an animation sequence.
+
+
+  Reference:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44264834#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
+*/ 
+
 .container {
   height: 100vh;
   margin: 0;

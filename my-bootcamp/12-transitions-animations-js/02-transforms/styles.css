@@ -1,3 +1,21 @@
+/* 
+  Transform 
+  CSS transforms allow you to modify the coordinate space of the CSS visual formatting model. Using transforms, you can rotate, scale, skew, or translate an element.
+  - Syntax: transform: function(value);
+  
+
+  Transition
+  CSS transitions provide a way to control the speed of animation changes to CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time.
+  -Syntax: transition: property duration timing-function delay;
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285668#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+  -  https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+
+
+*/
+
 body {
   font-family: 'Arial', sans-serif;
 }

@@ -1,3 +1,22 @@
+/* 
+  3D Transforms
+
+  rotate an element in 3D space on hover using CSS:
+  - Use perspective on the parent container to give a sense of depth.
+  - Use transform-style: preserve-3d on the element to maintain 3D positioning of child elements.
+  - Use backface-visibility: hidden on the front and back faces to hide the back side when not visible.
+  - Apply a rotation transform on hover to create the flipping effect.
+    - rotateY(180deg) around the y-axis (vertical) 
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateY
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44264794#overview
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/perspective
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility
+
+*/
+
 body {
   font-family: 'Arial', sans-serif;
   background: #f4f4f4;

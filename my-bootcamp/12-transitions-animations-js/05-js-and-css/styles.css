@@ -1,3 +1,19 @@
+/* 
+  JS & CSS
+  Adding and removing CSS classes with JavaScript
+
+  classList API:
+    - element.classList.add("class-name"): only adds the class if it doesn't already exist
+    - element.classList.remove("class-name")
+    - element.classList.toggle("class-name")
+
+  References:
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/44264810#overview
+  - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+
+
+*/
+
 body {
   font-family: Arial, sans-serif;
 }

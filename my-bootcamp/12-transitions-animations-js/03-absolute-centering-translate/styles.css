@@ -1,5 +1,14 @@
+/*
+  Absolute Centering with Translate
+
+
+  Reference:
+  - https://css-tricks.com/centering-css-complete-guide/
+  - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285670#overview
+
+ */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .container {
@@ -15,5 +24,6 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  /* Translate the element by -50% of its own width and height to center it */
   transform: translate(-50%, -50%);
 }

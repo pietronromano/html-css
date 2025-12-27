@@ -1,3 +1,27 @@
+/* 
+  Transitions 
+
+  CSS transitions let you decide which properties to animate (by listing them explicitly), when the animation will start (by setting a delay), how long the transition will last (by setting a duration), and how the transition will run (by defining an easing function, e.g., linearly or quick at the beginning, slow at the end).
+
+  Transitions vs Animations:
+  - Transitions are used for simple state changes, like hover effects, where you want to animate between two states.
+    -  Transitions are triggered by a change in state, such as hovering over an element or focusing on an input field.
+  - Animations are more complex and allow for multiple keyframes, giving you more control over the animation sequence.
+    - Animations can run independently of user interactions and can loop or alternate between states. Animation keyframes define the intermediate steps in the animation sequence.
+
+  - Syntax:
+    transition: property duration timing-function delay;
+    - property: The CSS property you want to animate (e.g., background-color, width, height, opacity).
+    - duration: The time the transition takes to complete (e.g., 0.5s, 200ms).
+    - timing-function: The speed curve of the transition (e.g., ease, linear, ease-in, ease-out, cubic-bezier).
+    - delay: The time to wait before starting the transition (e.g., 0s, 1s).
+    - You can also use 'all' to apply the transition to all properties that change.
+
+ References:
+ - https://www.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285658#overview
+ - 
+ - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions 
+*/
 body {
   font-family: Arial, sans-serif;
 }
@@ -16,7 +40,7 @@ body {
   cursor: pointer;
   width: 200px;
   /* transition: background-color 0.8s ease-in-out, color 0.8s; */
-  transition: all 0.8s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn:hover {
