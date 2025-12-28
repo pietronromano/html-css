@@ -69,6 +69,8 @@ Examples:
 - `ul>li*5 + Tab`: Creates an unordered list with 5 list items
 - `div.flex-item*10{Item $} + Tab`: Creates 10 divs with class "flex-item" and text "Item 1", "Item 2", ..., "Item 10".
 - `a:link + Tab`: Creates an anchor tag for a link.
+- `lorem50 + Tab`: Generates 50 words of Lorem Ipsum placeholder text.
+- `lorem*3 + Tab`: Generates 3 paragraphs of Lorem Ipsum placeholder text.
 
 ---
 
